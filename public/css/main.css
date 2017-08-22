@@ -1,0 +1,365 @@
+
+  @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+  @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+  body {
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  html {
+    height: 100%;
+  }
+
+
+  a{
+    color:#a5732a;
+  }
+
+  a:hover {
+    outline: none;
+    text-decoration:none;
+    color:#dab074;
+  }
+
+  a:focus {
+    outline:none;
+    outline-offset: 0;
+  }
+
+  a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+  h1{
+    color: #686868;
+  }
+
+  h2{
+    font-size: 24px;
+    color: #686868;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .overflow{
+    overflow: hidden;
+  }
+
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+  .btn-common {
+    font-size: 14px;
+    color: #797979;
+    border: 1px solid #dbb075;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+  }
+
+  #action .col-sm-5{
+    position: absolute;
+
+    top: 0;
+    height: 100%;
+    right: 0;
+  }
+
+
+  .btn-common:hover, 
+  .btn-common:focus{
+    outline: none;
+    background: none;
+    box-shadow: none;
+    color: #d29948;
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
+  .inline{
+    display: inline-block;
+  }
+
+  .padding{
+    padding: 65px 0;
+  }
+
+  .padding-bottom{
+    padding-bottom: 65px;
+  }
+
+  .padding-top{
+    padding-top: 90px;
+  }
+
+  .padding-right{
+    padding-right: 80px;
+  }
+
+  .padding-left{
+    padding-left: 80px;
+  }
+
+  .margin-bottom{
+    margin-bottom: 35px;
+  }
+
+  .carousel-indicators.visible-xs {
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    left: 0;
+  }
+
+  .carousel-indicators.visible-xs li {
+    border-color: #D29948;
+    border-width: 2px;
+    height: 12px;
+    margin: 0 5px 0 0;
+    width: 12px;
+  }
+
+  .carousel-indicators.visible-xs li.active {
+    background: rgba(210, 153, 72, 0.7);
+  }
+
+
+
+
+/*************************
+*******Header******
+**************************/
+
+
+#header{
+  margin-bottom: 0;
+  padding: 30px 0 60px 0;
+}
+
+#header .navbar-inverse .container{
+  position: relative;
+}
+
+/*************************
+*******Footer******
+**************************/
+
+#footer {
+  padding-bottom: 75px;
+  background-image: url(../images/home/footer.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/*************************
+*******About Us Page******
+**************************/
+
+
+#company-information .padding-top{
+  padding-top: 50px;
+  
+}
+
+.single-service img {
+  height: 85px;
+}
+
+.tour-button {
+  background-image: url(../images/home/tour-icon2.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-position: 151px 4px;
+}
+
+.team-single {
+  position: relative;
+}
+
+.person-thumb {
+  position: relative;
+}
+
+.social-profile {
+  background: none repeat scroll 0 0 rgba(137, 97, 46, 0.8);
+  display: none;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+  width: 100%;
+}
+
+.team-single:hover .social-profile{
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.social-profile .nav-pills {
+  display: inline-block;
+  margin-top: -26px;
+  padding: 0;
+  position: relative;
+  top: 50%;
+}
+
+.social-profile .nav-pills li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-profile .nav-pills li a {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+  border-radius: 40px;
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.social-profile .nav-pills li a:hover {
+  color: #89612e;
+  border-color: #89612e;
+}
+
+.person-info h2 {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.person-info h3 {
+  font-size: 16px;
+  color: #686868;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team-carousel-control {
+  position: absolute;
+  top: 36%;
+  width: 13px;
+  height: 16px;
+  text-indent: -9999999px;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.right.team-carousel-control {
+  right: -50px;
+  background-image: url(../images/aboutus/right.png);
+}
+
+.left.team-carousel-control {
+  left: -50px;
+  background-image: url(../images/aboutus/left.png);
+}
+
+.team-carousel-control:hover{
+  background-position: 0 -18px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition:  all 0.5s ease 0s;
+}
+
+.count h1{
+  font-size: 60px;
+  color: #dab074;
+}
+
+.count h3{
+  font-size: 16px;
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -ms-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition:  width 1s ease-in-out;
+}
+
+.top-zero{
+  margin-top: 0;
+}
+
+h3.top-zero{
+  font-size: 20px;
+}
+
+#company-information .about-us h2{
+  margin-bottom: 45px;
+}
+
+.single-skill h3{
+  font-size: 16px;
+}
+
+.progress{
+  height: 30px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.progress-bar{
+  line-height: 30px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.progress-bar.progress-bar-primary{
+  background: #dab074;
+}
+
+
